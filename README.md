@@ -33,6 +33,9 @@ pip install -e .
 ```
 
 ### 2. Setup YOLO v8 Model
+- Download the dataset from [Kaggle](https://www.kaggle.com/datasets/sreemantabarman/flame-dataset-candlelightermatch-stick-flames/data) and prepare it for training.
+- Train a custom YOLO v8 model for fire detection or use a pre-trained model.
+- Place the model weights (e.g., `fire_model.pt`) in the project directory.
 - Train a custom YOLO v8 model for fire detection or use a pre-trained model.
 - Place the model weights (e.g., `fire_model.pt`) in the project directory.
 
@@ -56,7 +59,7 @@ python detect_fire.py --model fire_model.pt --camera rtsp://your_ip_stream
 - Integrate SMS or email alerts.
 
 ## Credits
-- Developed by [Your Name]
+- Developed by Sreemanta Barman
 - YOLO v8 by **Ultralytics**
 - Open-source contributions & community support
 
